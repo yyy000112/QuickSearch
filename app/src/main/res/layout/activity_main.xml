@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="android.ye.quicksearch.MainActivity">
+
+    <ListView
+        android:id="@+id/ll_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+    <android.ye.quicksearch.QuickBar
+        android:id="@+id/quick_index_bar"
+        android:layout_alignParentRight="true"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:background="#B51421">
+    </android.ye.quicksearch.QuickBar>
+
+    <TextView
+        android:layout_width="110dp"
+        android:background="@drawable/bg"
+        android:textSize="50sp"
+        android:id="@+id/currentWord"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:text="dadada"
+        android:layout_centerInParent="true"
+        android:layout_height="110dp"/>
+</RelativeLayout>
